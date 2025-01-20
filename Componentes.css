@@ -1,0 +1,181 @@
+/* Estilo geral para os componentes */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  h1, h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0044cc;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0033aa;
+  }
+  
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+  
+  /* Estilo de layout para o componente de navegação */
+  .navegacao {
+    margin: 20px 0;
+    text-align: center;
+  }
+  
+  .progresso {
+    width: 100%;
+    height: 8px;
+    background-color: #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  
+  .barra-progresso {
+    height: 100%;
+    background-color: #4caf50;
+    border-radius: 4px;
+  }
+  
+  /* Estilo para os containers de questões */
+  .questao-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 100%;
+    max-width: 500px; /* Limite de largura para manter o layout controlado */
+  }
+  
+  .questao-container p {
+    font-size: 18px;
+    margin: 15px 0;
+  }
+  
+  .questao-container input {
+    margin: 10px 0;
+  }
+  
+  .botoes-navegacao {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  /* Estilo de botões para navegação */
+  .botoes-navegacao button {
+    width: 48%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .botoes-navegacao button:hover {
+    background-color: #0033aa;
+  }
+  
+  /* Estilo para a tela inicial */
+  .introducao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f8f9fa;
+  }
+  
+  .introducao h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .introducao p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .introducao button {
+    font-size: 18px;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #0044cc;
+    color: white;
+    border: none;
+  }
+  
+  .introducao button:hover {
+    background-color: #0033aa;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 768px) {
+    .questao-container {
+      width: 90%; /* Ajusta a largura no mobile */
+      padding: 15px;
+    }
+  
+    .botoes-navegacao button {
+      width: 48%; /* Botões maiores no mobile */
+      padding: 12px;
+    }
+  
+    .introducao h1 {
+      font-size: 28px;
+    }
+  
+    .introducao p {
+      font-size: 16px;
+    }
+  
+    .introducao button {
+      font-size: 16px;
+      padding: 12px 24px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .questao-container {
+      width: 95%; /* Ajusta a largura no mobile pequeno */
+    }
+  
+    .botoes-navegacao button {
+      font-size: 14px; /* Botões menores em telas pequenas */
+      padding: 10px;
+    }
+  
+    .introducao h1 {
+      font-size: 24px;
+    }
+  
+    .introducao p {
+      font-size: 14px;
+    }
+  
+    .introducao button {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }

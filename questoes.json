@@ -1,0 +1,58 @@
+[
+    {
+      "pergunta": "O que é React?",
+      "alternativas": [
+        "Uma biblioteca JavaScript",
+        "Um framework CSS",
+        "Uma linguagem de programação",
+        "Um banco de dados",
+        "Uma ferramenta de design"
+      ],
+      "respostaCorreta": "Uma biblioteca JavaScript"
+    },
+    {
+      "pergunta": "O que é JSX?",
+      "alternativas": [
+        "Uma sintaxe que mistura JavaScript e HTML",
+        "Uma biblioteca",
+        "Uma ferramenta de build",
+        "Um banco de dados",
+        "Um framework"
+      ],
+      "respostaCorreta": "Uma sintaxe que mistura JavaScript e HTML"
+    },
+    {
+      "pergunta": "Qual é o objetivo do Node.js?",
+      "alternativas": [
+        "Criar interfaces gráficas",
+        "Gerenciar bancos de dados",
+        "Executar JavaScript no servidor",
+        "Gerenciar pacotes",
+        "Estilizar páginas web"
+      ],
+      "respostaCorreta": "Executar JavaScript no servidor"
+    },
+    {
+      "pergunta": "O que é o Webpack?",
+      "alternativas": [
+        "Uma ferramenta de construção de pacotes",
+        "Uma linguagem de programação",
+        "Uma biblioteca JavaScript",
+        "Um framework CSS",
+        "Um editor de código"
+      ],
+      "respostaCorreta": "Uma ferramenta de construção de pacotes"
+    },
+    {
+      "pergunta": "O que é o DOM?",
+      "alternativas": [
+        "Uma estrutura de dados em árvore",
+        "Uma biblioteca JavaScript",
+        "Um banco de dados",
+        "Uma ferramenta de build",
+        "Uma sintaxe HTML"
+      ],
+      "respostaCorreta": "Uma estrutura de dados em árvore"
+    }
+  ]
+  
